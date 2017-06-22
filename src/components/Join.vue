@@ -22,8 +22,9 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-  @import '~bulma/sass/utilities/variables.sass'
-  label
-    color: $white
+<style lang="scss" scoped>
+  @import '~bulma/sass/utilities/variables.sass';
+  label {
+    color: $white;
+  }
 </style>

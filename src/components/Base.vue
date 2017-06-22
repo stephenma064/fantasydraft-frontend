@@ -9,7 +9,9 @@
         </div>
       </div>
     </div>
-    </div>
-    </div>
   </section>
 </template>
+
+<style lang="scss">
+
+</style>

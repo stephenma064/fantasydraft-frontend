@@ -3,9 +3,7 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns is-vcentered">
-          <div class="column is-4 is-offset-4 has-text-centered">
-            <slot></slot>
-          </div>
+          <slot></slot>
         </div>
       </div>
     </div>
@@ -13,5 +11,5 @@
 </template>
 
 <style lang="scss">
-
+@import '~bulma/sass/utilities/variables.sass';
 </style>

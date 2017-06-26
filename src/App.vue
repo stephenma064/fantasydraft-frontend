@@ -10,5 +10,8 @@ export default {
 }
 </script>
 
-<style lang="sass" src="bulma">
+<style lang="sass">
+@import '~bulma/sass/utilities/initial-variables.sass'
+$dark : $grey
+@import '~bulma'
 </style>

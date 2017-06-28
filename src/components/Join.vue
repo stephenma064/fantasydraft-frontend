@@ -1,34 +1,32 @@
 <template>
   <temp>
-    <div class="column is-4 is-offset-4">
-      <form class="has-text-left" action="">
-        <div class="field">
-          <label class="label is-medium">Room Code</label>
-          <p class="control">
-            <input type="text" class="input">
-          </p>
-        </div>
-        <div class="field">
-          <label class="label is-medium">Password</label>
-          <p class="control">
-            <input type="text" class="input">
-          </p>
-        </div>
-        <div class="field">
-          <label class="label is-medium">Nickname</label>
-          <p class="control">
-            <input type="text" class="input">
-          </p>
-        </div>
-        <div class="field is-grouped">
-          <p class="control">
-            <button class="button is-medium is-primary ">Join</button>
-          </p>
-          <p class="control">
-            <router-link to="/" class="button is-medium is-outlined">Back</router-link>
-          </p>
-        </div>
-      </form>
+    <div class="column is-4 is-offset-4 has-text-left">
+      <div class="field">
+        <label class="label">Room Code</label>
+        <p class="control">
+          <input type="text" class="input">
+        </p>
+      </div>
+      <div class="field">
+        <label class="label">Password</label>
+        <p class="control">
+          <input type="text" class="input">
+        </p>
+      </div>
+      <div class="field">
+        <label class="label">Nickname</label>
+        <p class="control">
+          <input type="text" class="input">
+        </p>
+      </div>
+      <div class="field is-grouped">
+        <p class="control">
+          <button class="button is-primary ">Join</button>
+        </p>
+        <p class="control">
+          <router-link to="/" class="button is-outlined">Back</router-link>
+        </p>
+      </div>
     </div>
   </temp>
 </template>

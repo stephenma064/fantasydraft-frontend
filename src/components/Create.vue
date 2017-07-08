@@ -20,6 +20,7 @@
           </div>
         </div>
       </div>
+      <hr>
       <div class="columns">
         <div class="column">
           <div class="field">
@@ -69,7 +70,7 @@
             </p>
           </div>
           <div class="field">
-            <label class="label">WR</label>
+            <label class="label">D/ST</label>
             <p class="control">
               <span class="select">
                 <select>
@@ -80,7 +81,7 @@
             </p>
           </div>
           <div class="field">
-            <label class="label">WR</label>
+            <label class="label">K</label>
             <p class="control">
               <span class="select">
                 <select>
@@ -93,7 +94,7 @@
         </div>
         <div class="column">
           <div class="field">
-            <label class="label">TE</label>
+            <label class="label">Flex</label>
             <p class="control">
               <span class="select">
                 <select>
@@ -104,7 +105,7 @@
             </p>
           </div>
           <div class="field">
-            <label class="label">WR</label>
+            <label class="label">IDP</label>
             <p class="control">
               <span class="select">
                 <select>
@@ -115,7 +116,7 @@
             </p>
           </div>
           <div class="field">
-            <label class="label">WR</label>
+            <label class="label">Bench</label>
             <p class="control">
               <span class="select">
                 <select>
@@ -142,16 +143,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~bulma/sass/utilities/variables.sass';
-label {
-  color: $white;
-}
-
-tr>td {
-  padding-bottom: 12px;
-}
-
-td {
-  align-content: right;
-}
 </style>

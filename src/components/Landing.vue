@@ -1,11 +1,11 @@
 <template>
   <temp>
-    <div class="column is-8 is-offset-2 has-text-centered">
+    <div class="d-flex align-items-center justify-content-center">
       <span>
-        <router-link to="/join" class="button is-primary is-large is-inverted is-outlined">Join a Draft</router-link>
+        <router-link to="/join" role="button" class="btn btn-primary">Join a Draft</router-link>
       </span>
       <span>
-        <router-link to="/create" class="button is-info is-large is-inverted is-outlined">Start a Draft</router-link>
+        <router-link to="/create" role="button" class="btn btn-primary">Start a Draft</router-link>
       </span>
     </div>
   </temp>
